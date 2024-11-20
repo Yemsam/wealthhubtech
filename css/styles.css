@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=League+Spartan:wght@300&display=swap');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1,
+h4,
+a {
+    color: #082755;
+}
+
+p {
+    line-height: 1.5rem;
+    color: #082755;
+    font-size: 20px;
+}
+
+/* navigation */
+.navigation {
+    z-index: 1000;
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-brand {
+    color: #8a92a0 !important;
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #082755;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+/* banner */
+.banner,
+.my-works,
+.pricing,
+.testimonials {
+    background-color: #e9dcea;
+}
+
+.my-clients .card,
+.my-contacts .card {
+    background-color: #e9dcea;
+    border: none;
+}
+
+.my-contacts a {
+    text-decoration: none;
+}
+
+.what-i-do h4 {
+    font-weight: 600;
+}
+
+/* buttons */
+.btn {
+    background-color: #082755 !important;
+    border-radius: 2rem !important;
+    color: #ffffff !important;
+    border: #082755 !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1,
+h5 {
+    font-weight: 700;
+}
+
+.testimonials img {
+    border-radius: 3rem;
+}
+
+.testimonials span {
+    font-style: italic;
+}
+
+/* icons */
+.icon {
+    width: 100% !important;
+    color: #fff !important;
+    background-color: #082755;
+    border-radius: 28px;
+    height: 50px;
+    max-width: 50px;
+    background-size: 20%;
+    padding: 12px;
+    margin: auto;
+}
+
+hr {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+/* carousel-inner timer */
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    transition: transform 10s linear;
+    /* Adjust the duration for slower or faster scrolling */
+}
+
+.carousel img {
+    max-height: 100px;
+    object-fit: contain;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.logo-track img {
+    height: 100px;
+    /* Adjust this value as needed */
+    object-fit: contain;
+    /* Keeps the image aspect ratio */
+    margin: 0 10px;
+    /* Add space between images */
+}
+
+
+
+/* footer */
+.footer a {
+    text-decoration: none;
+    color: #f59108;
+    font-style: italic;
+}

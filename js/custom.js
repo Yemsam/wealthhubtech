@@ -13,6 +13,23 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// THIS IS A CONTINUOUS LOOP OF IMAGES
+document.addEventListener("DOMContentLoaded", function () {
+    const imageElement = document.getElementById('autoImage');
+    const images = [
+        "./images/wealth3.png",
+        "./images/wealth2.png",
+        "./images/wealth.png"  // Add or remove as needed
+    ];
+    let index = 0;
+
+    setInterval(() => {
+        index = (index + 1) % images.length;
+        imageElement.src = images[index];
+        imageElement.style.opacity = 1;
+    }, 2000); // every 3 seconds
+});
+
 
 // Select all anchor tags with the class "image-link"
 const imageLinks = document.querySelectorAll('.image-link');

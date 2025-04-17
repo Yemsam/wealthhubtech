@@ -173,6 +173,31 @@ hr {
     color: #102851;
 }
 
+/* image auto transition */
+#autoImage {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* image auto transition maintaining same size so that the site won't be changing as the images are changing */
+.image-wrapper {
+    width: 100%;
+    height: 300px;
+    /* Set your desired fixed height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Optional for better visual */
+}
+
+.image-wrapper img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    /* or cover if you want it to fully fill the box */
+    transition: opacity 0.5s ease-in-out;
+}
+
 /* footer */
 .footer a {
     text-decoration: none;

@@ -17,7 +17,14 @@
     <section class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
             <div class="container">
-                <h1><a class="navbar-brand" href="#">Wealth Hub Tech</a></h1>
+                <h1><a class="navbar-brand" href="#">
+                        <span class="color-orange">Wealth</span>
+                        <span class="color-blue">Hub</span>
+                        <span class="color-orange">Tech</span>
+                    </a>
+                </h1>
+
+                <!--THIS IS THE ORIGINAL NAVBAR <h1><a class="navbar-brand" href="#">Wealth Hub Tech</a></h1> -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,36 +32,35 @@
                 <div class="collapse navbar-collapse justify-content-flex-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#about">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
+                            <a class="nav-link" href="#our-works">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
+                            <a class="nav-link" href="#our-works">Projects</a>
                         </li>
 
                         <li class="nav-item">
                             <!-- <a class="nav-link" href="#pricing">Pricing</a> -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="clients.html">Clients</a>
+                            <a class="nav-link" href="#clients">Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primaryd" href="contact-us.html">Contact</a>
+                            <a class="nav-link btn btn-primaryd" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
-
     <section class="footer bg-white py-3">
         <div class="row text-center">
-            <h1>Clients</h1><br>
+            <h1>Our Clients</h1><br>
         </div>
         <div id="client-logos" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -81,135 +87,81 @@
     </section>
     <section class="banner py-5" id="about">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
+                <!-- Left: Text -->
                 <div class="col-md-8 py-4">
-                    <h1>Empowering Brands with Creative Excellence & Smart Solutions
-                    </h1>
-                    <p class="py-4">At Wealth Hub Tech, we don’t just create — we elevate. We’re a one-stop digital
-                        powerhouse helping businesses and
-                        individuals unlock their full potential through top-tier design, branding, data, and virtual
-                        support solutions.
+                    <h1>Empowering Brands with Creative Excellence & Smart Solutions</h1>
+                    <p class="py-4">
+                        At Wealth Hub Tech, we don’t just create — we elevate. We’re a one-stop digital
+                        powerhouse helping businesses and individuals unlock their full potential through top-tier
+                        design,
+                        branding, data, and virtual support solutions.
 
                         From eye-catching graphic designs, stunning websites, and standout branding materials to
                         data-driven insights and reliable virtual assistance, we bring your vision to life with
-                        creativity, clarity, and
-                        professionalism.</p>
-                    <div class="col-md-6 py-4">
-                        <a href="#my-works" class="btn btn-primary ">Our Projects</a>
-                    </div>
+                        creativity, clarity, and professionalism.
+                    </p>
+                    <a href="#our-works" class="btn btn-primary">Our Projects</a>
+                </div>
+
+                <!-- Right: Image -->
+                <div class="col-md-4">
+                    <img src="./images/wealth.png" class="img-fluid" alt="Wealth Hub Tech">
                 </div>
             </div>
-            <div class="col-md-4">
-                <img src="./images/wealth.png" class="img-fluid" alt="">
-            </div>
-        </div>
         </div>
     </section>
+
 
     <section id="what-i-do" class="what-i-do py-5">
-        <div class="text-center">
-            <h1>🌟 Why Choose Us?</h1>
-            <p class="py-2">Creative. Reliable. Results-Driven.</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 py-4">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <i class="fa fa-share-alt icon" height="100%" aria-hidden="true"></i>
+        <div class="container">
+            <h1 class="mb-4 text-center">🌟 Why Choose Us?</h1>
+            <p class="text-center">Creative. Reliable. Results-Driven.</p>
+            <div class="row">
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="mb-3">
+                                <i class="fa fa-share-alt icon fa-2x icon" height="100%" aria-hidden="true"></i>
                             </div>
-                            <div class="col-sm-10">
-                                <h4>Custom designs that reflect your unique identity</h4>
-                                <!-- <p>Stay organized and never miss an important meeting. I will handle scheduling, set up
-                                    recurring events, and even take
-                                    meeting notes, freeing you to focus on what matters most.</p> -->
-                            </div>
-
-                            <div class="col-sm-2">
-                                <i class="fa fa-chart-line icon" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-10">
-                                <h4>Smart tech solutions that boost growth and visibility</h4>
-                                <!-- <p>Navigate the complex world of search engines with ease.
-                                    We optimize your website to rank higher, ensuring your business gets the attention
-                                    it
-                                    deserves.</p> -->
-                            </div>
-                            <div class="col-sm-2">
-                                <i class="fa fa-envelope icon" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-10">
-                                <h4>A passionate team dedicated to your success</h4>
-                                <!-- <p>From logos to banners, our talented graphic designers breathe life into your brand,
-                                    ensuring it's not just seen but remembered. Tame your inbox and improve
-                                    communication
-                                    efficiency. I streamline your email processes, handle correspondence, and
-                                    ensure you never miss an important message.</p> -->
-                            </div>
+                            <h5 class="text-center">Custom designs that reflect your unique identity</h5>
                         </div>
                     </div>
-                    <div class="col-md-4 py-4">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <i class="fa fa-calendar-alt icon" height="100%" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="mb-3">
+                                <i class="fa fa-chart-line icon fa-2x icon" height="100%" aria-hidden="true"></i>
                             </div>
-                            <div class="col-sm-10">
-                                <h4>Calendar Management</h4>
-                                <!-- <p>Stay organized and never miss an important meeting. I will handle scheduling, set up
-                                    recurring events, and even take
-                                    meeting notes, freeing you to focus on what matters most.</p> -->
-                            </div>
-
-                            <div class="col-sm-2">
-                                <i class="fa fa-paint-brush icon" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-10">
-                                <h4>Landing Page Design</h4>
-                                <!-- <p>Navigate the complex world of search engines with ease.
-                                    We optimize your website to rank higher, ensuring your business gets the attention
-                                    it
-                                    deserves.</p> -->
-                            </div>
-                            <div class="col-sm-2">
-                                <i class="fa fa-keyboard icon" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-10">
-                                <h4>Data Entry</h4>
-                                <!-- <p>From logos to banners, our talented graphic designers breathe life into your brand,
-                                    ensuring it's not just seen but remembered. Tame your inbox and improve
-                                    communication
-                                    efficiency. I streamline your email processes, handle correspondence, and
-                                    ensure you never miss an important message.</p> -->
-                            </div>
+                            <h5 class="text-center">Smart tech solutions that boost growth and visibility</h5>
                         </div>
                     </div>
-                    <div class="col-md-4 py-2">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <i class="fa fa-plane icon" height="100%" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="mb-3">
+                                <i class="fa fa-pencil-ruler fa-2x icon" aria-hidden="true"></i>
                             </div>
-                            <div class="col-sm-10">
-                                <h4>Travel Planning</h4>
-                                <!-- <p>Stay organized and never miss an important meeting. I will handle scheduling, set up
-                                    recurring events, and even take
-                                    meeting notes, freeing you to focus on what matters most.</p> -->
+                            <h5 class="text-center">A passionate team dedicated to your success</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="mb-3">
+                                <i class="fa fa-plane icon fa-2x icon" height="100%" aria-hidden="true"></i>
                             </div>
-                            <div class="col-sm-2">
-                                <i class="fa fa-pencil-ruler icon" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-10">
-                                <h4>Graphics Design</h4>
-                                <!-- <p>From logos to banners, our talented graphic designers breathe life into your brand,
-                                    ensuring it's not just seen but remembered. Tame your inbox and improve
-                                    communication
-                                    efficiency. I streamline your email processes, handle correspondence, and
-                                    ensure you never miss an important message.</p> -->
-                            </div>
+                            <h5 class="text-center">Results evaluation and feedback.</h5>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-    <section id="my-works" class="my-works py-5">
+    <section id="our-works" class="my-works py-5">
         <div class="text-center">
             <h1>🚀 What We Offer</h1>
             <p class="py-2">Take a look at some of the projects that we have executed.</p>
@@ -333,7 +285,7 @@
             </div>
         </div>
     </section> -->
-
+    <div style="height: 50px; width: 100%; background-color: #ffffff;"></div>
     <section id="pricing" class="pricing py-5">
         <div class="container">
             <h1 class="mb-4 text-center">How we Work with our Clients</h1>
@@ -387,6 +339,60 @@
         </div>
     </section>
 
+    <!-- THIS IS THE ORIGINAL CODE OF THE SECTION PRECEDING SECTION 
+    <section id="pricing" class="pricing py-5">
+        <div class="container">
+            <h1 class="mb-4 text-center">How we Work with our Clients</h1>
+            <p class="text-center">Choose a favorable package for your needs.</p>
+            <div class="row">
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Step</h5>
+                            <h1 class="card-subtitle mb-2">1</h1>
+                            <h6>Understand client's need</h6>
+                            <hr>
+                            <h6>Review the info provided to ensure
+                                we have all that we need to get started</h6>
+                            <hr>
+                            <h6>Get in touch immediately if any additional detail is needed</h6>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Step</h5>
+                            <h1 class="card-subtitle mb-2">2</h1>
+                            <h6>Agreement on timelines, deliverables, mode and frequency of communication</h6>
+                            <hr>
+                            <h6>Commitment to terms of work</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-4">
+                    <div class="card py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Step</h5>
+                            <h1 class="card-subtitle mb-2">3</h1>
+                            <h6>Starting the work as agreed.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-4">
+                    <div class="card text-center py-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Step</h5>
+                            <h1 class="card-subtitle mb-2 bold">4</h1>
+                            <h6>Results evaluation and feedback.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
     <!-- <section id="" class="my-works bg-white py-2">
         <div class="text-center">
             <h1>Certifications</h1>
@@ -424,6 +430,7 @@
             </div>
         </div>
     </section> -->
+    <div style="height: 50px; width: 100%; background-color: #ffffff;"></div>
     <section id="clients" class="testimonials py-5">
         <div class="container">
             <div class="row text-center">
@@ -537,7 +544,7 @@
                 <div class="col-md-3 my-3">
                     <div class="card py-2">
                         <div class="card-body text-center">
-                            <i class="fa fa-facebook icon" aria-hidden="true"></i>
+                            <i class="fab fa-facebook icon" aria-hidden="true"></i>
                             <!--<h5 class="card-title">E-mail</h5> 
                             <p>wealth.hubtech@gmail.com</p> 
                             <p>Get in Touch:</p> -->
@@ -549,7 +556,7 @@
                 <div class="col-md-3 my-3">
                     <div class="card py-2">
                         <div class="card-body text-center">
-                            <i class="fa fa-instagram icon" aria-hidden="true"></i>
+                            <i class="fab fa-instagram icon" aria-hidden="true"></i>
                             <!-- <h5 class="card-title">E-mail</h5>
                             <p>wealth.hubtech@gmail.com</p>
                             <p>Get in Touch:</p> -->
@@ -633,22 +640,22 @@
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex justify-content-around">
-                        <img src="./images/zoom.jpeg" alt="Client 4" class="img-fluid">
-                        <img src="./images/google_calendar.png" alt="Client 5" class="img-fluid">
-                        <img src="./images/google_meet.png" alt="Client 6" class="img-fluid">
-                        <img src="./images/discord.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/slack.jpeg" alt="Client 6" class="img-fluid">
+                        <img src="./images/zoom.jpeg" alt="Client 1" class="img-fluid">
+                        <img src="./images/google_calendar.png" alt="Client 2" class="img-fluid">
+                        <img src="./images/google_meet.png" alt="Client 3" class="img-fluid">
+                        <img src="./images/discord.jpeg" alt="Client 4" class="img-fluid">
+                        <img src="./images/slack.jpeg" alt="Client 5" class="img-fluid">
                         <img src="./images/gmail icon.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/monday.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/jira.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/outlook.png" alt="Client 6" class="img-fluid">
-                        <img src="./images/canva.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/GitHub.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/hootsuite.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/google_sheets.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/buffer.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/sql.jpeg" alt="Client 6" class="img-fluid">
-                        <img src="./images/power_bi.jpeg" alt="Client 6" class="img-fluid">
+                        <img src="./images/monday.jpeg" alt="Client 7" class="img-fluid">
+                        <img src="./images/jira.jpeg" alt="Client 8" class="img-fluid">
+                        <img src="./images/outlook.png" alt="Client 9" class="img-fluid">
+                        <img src="./images/canva.jpeg" alt="Client 10" class="img-fluid">
+                        <img src="./images/GitHub.jpeg" alt="Client 11" class="img-fluid">
+                        <img src="./images/hootsuite.jpeg" alt="Client 12" class="img-fluid">
+                        <img src="./images/google_sheets.jpeg" alt="Client 13" class="img-fluid">
+                        <img src="./images/buffer.jpeg" alt="Client 14" class="img-fluid">
+                        <img src="./images/sql.jpeg" alt="Client 15" class="img-fluid">
+                        <img src="./images/power_bi.jpeg" alt="Client 16" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -656,8 +663,15 @@
     </section>
     <section class="footer bg-dark py-5">
         <div class="text-center text-white">
-            <span>Copyright 2025 © Wealth Hub Tech | All Rights Reserved. Designed by
-                <a href="#">Wealth Hub Tech</a>
+            <span>Copyright 2025 © <span class="color-orange">Wealth</span>
+                <span style="color: #fbfbfb;">Hub</span>
+                <span class="color-orange">Tech</span>
+                </a> | Designed by
+                <a href="#">
+                    <span class="color-orange">Wealth</span>
+                    <span style="color: #fbfbfb;">Hub</span>
+                    <span class="color-orange">Tech</span>
+                </a>
             </span>
         </div>
     </section>

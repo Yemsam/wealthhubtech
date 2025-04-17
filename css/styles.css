@@ -165,11 +165,17 @@ hr {
     visibility: visible;
 }
 
+.color-orange {
+    color: #ee982a;
+}
 
+.color-blue {
+    color: #102851;
+}
 
 /* footer */
 .footer a {
     text-decoration: none;
-    color: #f59108;
-    font-style: italic;
+    color: #ee982a;
+    font-style: bold;
 }
